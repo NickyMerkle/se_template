@@ -217,7 +217,7 @@
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "pp-gwc-nl-hq-t-gw-cd"
+      "defaultValue": "app-gwc-nl-hq-t-gw-cd"
     },
     "siMsDeployPackageUrl": {
       "type": "securestring",
