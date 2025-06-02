@@ -183,7 +183,7 @@
     },
     "applicationInsightsLocation": {
       "type": "string",
-      "defaultValue": "East US"
+      "defaultValue": "Germany West Central"
     },
     "storeSitecoreCountersInApplicationInsights": {
       "type": "bool",
@@ -196,15 +196,15 @@
     },
     "siHostingPlanName": {
       "type": "string",
-      "defaultValue": "asp-gwc-nl-hq-t-gwsi"
+      "defaultValue": "plan-gwc-nl-hq-t-gwsi"
     },
     "cmHostingPlanName": {
       "type": "string",
-      "defaultValue": "asp-gwc-nl-hq-t-gwcm"
+      "defaultValue": "plan-gwc-nl-hq-t-gwcm"
     },
     "cdHostingPlanName": {
       "type": "string",
-      "defaultValue": "asp-gwc-nl-hq-t-gwcd"
+      "defaultValue": "plan-gwc-nl-hq-t-gwcd"
     },
     "siWebAppName": {
       "type": "string",
