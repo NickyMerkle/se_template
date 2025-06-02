@@ -97,23 +97,23 @@
     },
     "coreSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gw-core"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwcore"
     },
     "masterSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gw-master"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwmaster"
     },
     "securitySqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gw-core"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwcore"
     },
     "webSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gw-web"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwweb"
     },
     "formsSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gw-forms"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwforms"
     },
     "coreSqlDatabaseUserName": {
       "type": "string",
@@ -196,28 +196,28 @@
     },
     "siHostingPlanName": {
       "type": "string",
-      "defaultValue": "asp-gwc-nl-hq-t-gw-si"
+      "defaultValue": "asp-gwc-nl-hq-t-gwsi"
     },
     "cmHostingPlanName": {
       "type": "string",
-      "defaultValue": "asp-gwc-nl-hq-t-gw-cm"
+      "defaultValue": "asp-gwc-nl-hq-t-gwcm"
     },
     "cdHostingPlanName": {
       "type": "string",
-      "defaultValue": "asp-gwc-nl-hq-t-gw-cd"
+      "defaultValue": "asp-gwc-nl-hq-t-gwcd"
     },
     "siWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "app-gwc-nl-hq-t-gw-si"
+      "defaultValue": "app-gwc-nl-hq-t-gwsi"
     },
     "cmWebAppName": {
       "type": "string",
-      "defaultValue": "app-gwc-nl-hq-t-gw-cm"
+      "defaultValue": "app-gwc-nl-hq-t-gwcm"
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "app-gwc-nl-hq-t-gw-cd"
+      "defaultValue": "app-gwc-nl-hq-t-gwcd"
     },
     "siMsDeployPackageUrl": {
       "type": "securestring",
@@ -293,7 +293,7 @@
     },
     "omsWorkspaceName": {
       "type": "string",
-      "defaultValue": "log-gwc-nl-hq-t-gw-appi"
+      "defaultValue": "log-gwc-nl-hq-t-gwappi"
     }
   },
   "resources": [
