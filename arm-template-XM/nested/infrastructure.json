@@ -133,7 +133,7 @@
     },
     "redisCacheName": {
       "type": "string",
-      "defaultValue": "redis-gwc-nl-hq-t-gw"
+      "defaultValue": "redis-gwc-nl-hq-t-gwredis"
     },
     "useApplicationInsights": {
       "type": "bool",
@@ -974,6 +974,31 @@
         "password": "[parameters('authCertificatePassword')]",
         "pfxBlob": "[parameters('authCertificateBlob')]",
         "hostingEnvironmentProfile": "[if(variables('useAse'), variables('hostingPlanProperties').authCertificateHostingEnvironmentProfile, '')]"
+      },
+      "tags": {
+        "provider": "[variables('sitecoreTags').provider]"
+      }
+    },
+        {
+      "type": "Microsoft.Cache/Redis",
+      "name": "[variables('redisCacheNameTidy')]",
+      "apiVersion": "[variables('redisApiVersion')]",
+      "location": "[parameters('location')]",
+      "properties": {
+        "sku": {
+          "name": "[parameters('resourceSizes').redisCache.SkuName]",
+          "family": "[parameters('resourceSizes').redisCache.SkuFamily]",
+          "capacity": "[parameters('resourceSizes').redisCache.SkuCapacity]"
+        },
+        "redisConfiguration": {
+          "aad-enabled": "true"
+        },
+        "enableNonSslPort": false,
+        "redisVersion": "6",
+        "disableAccessKeyAuthentication": true,
+        "zonalAllocationPolicy": "Automatic",
+        "publicNetworkAccess": "Disabled",
+        "minimumTlsVersion": "[parameters('minTlsVersion')]"
       },
       "tags": {
         "provider": "[variables('sitecoreTags').provider]"
