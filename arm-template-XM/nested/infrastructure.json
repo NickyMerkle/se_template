@@ -5,7 +5,7 @@
     "webApiVersion": "2018-02-01",
     "serverFarmApiVersion": "2018-02-01",
     "dbApiVersion": "2022-05-01-preview",
-    "redisApiVersion": "2020-06-01",
+    "redisApiVersion": "2024-11-01",
     "applicationInsightsApiVersion": "2020-02-02",
     "certificateApiVersion": "2014-11-01",
     "omsWorkspaceApiVersion": "2017-03-15-preview",
@@ -145,7 +145,7 @@
     },
     "applicationInsightsLocation": {
       "type": "string",
-      "defaultValue": "Germany West Central"
+      "defaultValue": "germanywestcentral"
     },
     "applicationInsightsPricePlan": {
       "type": "string",
@@ -990,7 +990,14 @@
           "family": "[parameters('resourceSizes').redisCache.SkuFamily]",
           "capacity": "[parameters('resourceSizes').redisCache.SkuCapacity]"
         },
+        "redisConfiguration": {
+          "aad-enabled": "true"
+        },
         "enableNonSslPort": false,
+        "redisVersion": "6",
+        "disableAccessKeyAuthentication": true,
+        "zonalAllocationPolicy": "Automatic",
+        "publicNetworkAccess": "Disabled",
         "minimumTlsVersion": "[parameters('minTlsVersion')]"
       },
       "tags": {
