@@ -97,7 +97,7 @@
     },
     "sqlServerName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-sql')]"
+      "defaultValue": "sql-gwc-nl-hq-t-gw"
     },
     "sqlServerLogin": {
       "type": "string",
@@ -117,23 +117,23 @@
     },
     "coreSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-core-db')]"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwcore"
     },
     "masterSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-master-db')]"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwmaster"
     },
     "webSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-web-db')]"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwweb"
     },
     "formsSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-forms-db')]"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwforms"
     },
     "redisCacheName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-redis')]"
+      "defaultValue": "redis-gwc-nl-hq-t-gw"
     },
     "useApplicationInsights": {
       "type": "bool",
@@ -141,21 +141,21 @@
     },
     "applicationInsightsName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-ai')]"
+      "defaultValue": "appi-gwc-nl-hq-t-gw"
     },
     "applicationInsightsLocation": {
       "type": "string",
-      "defaultValue": "East US"
+      "defaultValue": "Germany West Central"
     },
     "applicationInsightsPricePlan": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-ai-pp')]"
+      "defaultValue": "appip-gwc-nl-hq-t-gw"
     },
     "authCertificateName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-auth')]"
+      "defaultValue": "auth-gwc-nl-hq-t-gw"
     },
     "authCertificateBlob": {
       "type": "securestring",
@@ -168,28 +168,28 @@
     "siHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-si-hp')]"
+      "defaultValue": "plan-gwc-nl-hq-t-gwsi"
     },
     "cmHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-cm-hp')]"
+      "defaultValue": "plan-gwc-nl-hq-t-gwcm"
     },
     "cdHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-cd-hp')]"
+      "defaultValue": "plan-gwc-nl-hq-t-gwcd"
     },
     "siWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-si')]"
+      "defaultValue": "app-gwc-nl-hq-t-gwsi"
     },
     "cmWebAppName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-cm')]"
+      "defaultValue": "app-gwc-nl-hq-t-gwcm"
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-cd')]"
+      "defaultValue": "app-gwc-nl-hq-t-gwcd"
     },
     "skuMap": {
       "type": "secureObject",
@@ -658,7 +658,7 @@
     },
     "omsWorkspaceName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-oms')]"
+      "defaultValue": "log-gwc-nl-hq-t-gwappi"
     },
     "minTlsVersion": {
       "type": "string",

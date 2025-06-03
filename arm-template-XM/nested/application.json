@@ -58,23 +58,23 @@
     },
     "coreSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-core-db')]"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwcore"
     },
     "masterSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-master-db')]"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwmaster"
     },
     "securitySqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-core-db')]"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwcore"
     },
     "webSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-web-db')]"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwweb"
     },
     "formsSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-forms-db')]"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwforms"
     },
     "coreSqlDatabaseUserName": {
       "type": "string",
@@ -132,7 +132,7 @@
     },
     "redisCacheName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-redis')]"
+      "defaultValue": "redis-gwc-nl-hq-t-gw"
     },
 
     "useApplicationInsights": {
@@ -141,7 +141,7 @@
     },
     "applicationInsightsName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-ai')]"
+      "defaultValue": "appi-gwc-nl-hq-t-gw"
     },
     "storeSitecoreCountersInApplicationInsights": {
       "type": "bool",
@@ -160,15 +160,15 @@
     "siWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-si')]"
+      "defaultValue": "app-gwc-nl-hq-t-gwsi"
     },
     "cmWebAppName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-cm')]"
+      "defaultValue": "app-gwc-nl-hq-t-gwcm"
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-cd')]"
+      "defaultValue": "app-gwc-nl-hq-t-gwcd"
     },
     "siMsDeployPackageUrl": {
       "type": "securestring",
