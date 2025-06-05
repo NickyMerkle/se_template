@@ -117,23 +117,23 @@
     },
     "coreSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gwcore"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gw-core"
     },
     "masterSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gwmaster"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gw-master"
     },
     "webSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gwweb"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gw-web"
     },
     "formsSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gwforms"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gw-forms"
     },
     "redisCacheName": {
       "type": "string",
-      "defaultValue": "redis-gwc-nl-hq-t-gwredis"
+      "defaultValue": "redis-gwc-nl-hq-t-gw"
     },
     "useApplicationInsights": {
       "type": "bool",
@@ -168,28 +168,28 @@
     "siHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "plan-gwc-nl-hq-t-gwsi"
+      "defaultValue": "plan-gwc-nl-hq-t-gw-si"
     },
     "cmHostingPlanName": {
       "type": "string",
-      "defaultValue": "plan-gwc-nl-hq-t-gwcm"
+      "defaultValue": "plan-gwc-nl-hq-t-gw-cm"
     },
     "cdHostingPlanName": {
       "type": "string",
-      "defaultValue": "plan-gwc-nl-hq-t-gwcd"
+      "defaultValue": "plan-gwc-nl-hq-t-gw-cd"
     },
     "siWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "app-gwc-nl-hq-t-gwsi"
+      "defaultValue": "app-gwc-nl-hq-t-gw-si"
     },
     "cmWebAppName": {
       "type": "string",
-      "defaultValue": "app-gwc-nl-hq-t-gwcm"
+      "defaultValue": "app-gwc-nl-hq-t-gw-cm"
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "app-gwc-nl-hq-t-gwcd"
+      "defaultValue": "app-gwc-nl-hq-t-gw-cd"
     },
     "skuMap": {
       "type": "secureObject",
@@ -658,7 +658,7 @@
     },
     "omsWorkspaceName": {
       "type": "string",
-      "defaultValue": "log-gwc-nl-hq-t-gwappi"
+      "defaultValue": "log-gwc-nl-hq-t-gw-appi"
     },
     "minTlsVersion": {
       "type": "string",
