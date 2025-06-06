@@ -133,7 +133,7 @@
     },
     "redisCacheName": {
       "type": "string",
-      "defaultValue": "redis-gwc-nl-hq-t-gw-redis"
+      "defaultValue": "redis-gwc-nl-hq-t-gw"
     },
     "useApplicationInsights": {
       "type": "bool",

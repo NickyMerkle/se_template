@@ -167,7 +167,7 @@
     },
     "redisCacheName": {
       "type": "string",
-      "defaultValue": "redis-gwc-nl-hq-t-gw-redis"
+      "defaultValue": "redis-gwc-nl-hq-t-gw"
     },
     "solrConnectionString": {
       "type": "securestring",
