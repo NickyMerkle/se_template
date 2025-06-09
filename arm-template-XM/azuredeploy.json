@@ -77,7 +77,7 @@
     },
     "sqlServerName": {
       "type": "string",
-      "defaultValue": "sql-gwc-nl-hq-t-gw"
+      "defaultValue": "sql-gwc-nl-hq-s-gw"
     },
     "sqlServerLogin": {
       "type": "string",
@@ -97,23 +97,23 @@
     },
     "coreSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gw-core"
+      "defaultValue": "sqldb-gwc-nl-hq-s-gw-core"
     },
     "masterSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gw-master"
+      "defaultValue": "sqldb-gwc-nl-hq-s-gw-master"
     },
     "securitySqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gw-core"
+      "defaultValue": "sqldb-gwc-nl-hq-s-gw-core"
     },
     "webSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gw-web"
+      "defaultValue": "sqldb-gwc-nl-hq-s-gw-web"
     },
     "formsSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-t-gw-forms"
+      "defaultValue": "sqldb-gwc-nl-hq-s-gw-forms"
     },
     "coreSqlDatabaseUserName": {
       "type": "string",
@@ -167,7 +167,7 @@
     },
     "redisCacheName": {
       "type": "string",
-      "defaultValue": "redis-gwc-nl-hq-t-gw"
+      "defaultValue": "redis-gwc-nl-hq-s-gw"
     },
     "solrConnectionString": {
       "type": "securestring",
@@ -179,7 +179,7 @@
     },
     "applicationInsightsName": {
       "type": "string",
-      "defaultValue": "appi-gwc-nl-hq-t-gw"
+      "defaultValue": "appi-gwc-nl-hq-s-gw"
     },
     "applicationInsightsLocation": {
       "type": "string",
@@ -192,32 +192,32 @@
     "applicationInsightsPricePlan": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "appip-gwc-nl-hq-t-gw"
+      "defaultValue": "appip-gwc-nl-hq-s-gw"
     },
     "siHostingPlanName": {
       "type": "string",
-      "defaultValue": "plan-gwc-nl-hq-t-gw-si"
+      "defaultValue": "plan-gwc-nl-hq-s-gw-si"
     },
     "cmHostingPlanName": {
       "type": "string",
-      "defaultValue": "plan-gwc-nl-hq-t-gw-cm"
+      "defaultValue": "plan-gwc-nl-hq-s-gw-cm"
     },
     "cdHostingPlanName": {
       "type": "string",
-      "defaultValue": "plan-gwc-nl-hq-t-gw-cd"
+      "defaultValue": "plan-gwc-nl-hq-s-gw-cd"
     },
     "siWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "app-gwc-nl-hq-t-gw-si"
+      "defaultValue": "app-gwc-nl-hq-s-gw-si"
     },
     "cmWebAppName": {
       "type": "string",
-      "defaultValue": "app-gwc-nl-hq-t-gw-cm"
+      "defaultValue": "app-gwc-nl-hq-s-gw-cm"
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "app-gwc-nl-hq-t-gw-cd"
+      "defaultValue": "app-gwc-nl-hq-s-gw-cd"
     },
     "siMsDeployPackageUrl": {
       "type": "securestring",
@@ -242,7 +242,7 @@
     "authCertificateName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "auth-gwc-nl-hq-t-gw"
+      "defaultValue": "auth-gwc-nl-hq-s-gw"
     },
     "authCertificateBlob": {
       "type": "securestring",
@@ -293,7 +293,7 @@
     },
     "omsWorkspaceName": {
       "type": "string",
-      "defaultValue": "log-gwc-nl-hq-t-gw-appi"
+      "defaultValue": "log-gwc-nl-hq-s-gw-appi"
     }
   },
   "resources": [
