@@ -58,23 +58,23 @@
     },
     "coreSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-s-gw-core"
+      "defaultValue": "sqldb-gwc-nl-hq-sss-gw-core"
     },
     "masterSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-s-gw-master"
+      "defaultValue": "sqldb-gwc-nl-hq-sss-gw-master"
     },
     "securitySqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-s-gw-core"
+      "defaultValue": "sqldb-gwc-nl-hq-sss-gw-core"
     },
     "webSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-s-gw-web"
+      "defaultValue": "sqldb-gwc-nl-hq-sss-gw-web"
     },
     "formsSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-s-gw-forms"
+      "defaultValue": "sqldb-gwc-nl-hq-sss-gw-forms"
     },
     "coreSqlDatabaseUserName": {
       "type": "string",
@@ -132,7 +132,7 @@
     },
     "redisCacheName": {
       "type": "string",
-      "defaultValue": "redis-gwc-nl-hq-s-gw"
+      "defaultValue": "redis-gwc-nl-hq-sss-gw"
     },
 
     "useApplicationInsights": {
@@ -141,7 +141,7 @@
     },
     "applicationInsightsName": {
       "type": "string",
-      "defaultValue": "appi-gwc-nl-hq-s-gw"
+      "defaultValue": "appi-gwc-nl-hq-sss-gw"
     },
     "storeSitecoreCountersInApplicationInsights": {
       "type": "bool",
@@ -160,15 +160,15 @@
     "siWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "app-gwc-nl-hq-s-gw-si"
+      "defaultValue": "app-gwc-nl-hq-sss-gw-si"
     },
     "cmWebAppName": {
       "type": "string",
-      "defaultValue": "app-gwc-nl-hq-s-gw-cm"
+      "defaultValue": "app-gwc-nl-hq-sss-gw-cm"
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "app-gwc-nl-hq-s-gw-cd"
+      "defaultValue": "app-gwc-nl-hq-sss-gw-cd"
     },
     "siMsDeployPackageUrl": {
       "type": "securestring",
