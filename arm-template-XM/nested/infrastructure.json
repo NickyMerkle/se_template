@@ -145,7 +145,7 @@
     },
     "applicationInsightsLocation": {
       "type": "string",
-      "defaultValue": "westeurope"
+      "defaultValue": "westeurope1"
     },
     "applicationInsightsPricePlan": {
       "type": "string",

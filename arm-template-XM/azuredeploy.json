@@ -183,7 +183,7 @@
     },
     "applicationInsightsLocation": {
       "type": "string",
-      "defaultValue": "westeurope"
+      "defaultValue": "westeurope1"
     },
     "storeSitecoreCountersInApplicationInsights": {
       "type": "bool",
