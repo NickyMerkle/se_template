@@ -97,7 +97,7 @@
     },
     "sqlServerName": {
       "type": "string",
-      "defaultValue": "sql-gwc-nl-hq-sss-gw"
+      "defaultValue": "sql-gwc-nl-hq-t-gw"
     },
     "sqlServerLogin": {
       "type": "string",
@@ -117,23 +117,23 @@
     },
     "coreSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-sss-gw-core"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwcore"
     },
     "masterSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-sss-gw-master"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwmaster"
     },
     "webSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-sss-gw-web"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwweb"
     },
     "formsSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "sqldb-gwc-nl-hq-sss-gw-forms"
+      "defaultValue": "sqldb-gwc-nl-hq-t-gwforms"
     },
     "redisCacheName": {
       "type": "string",
-      "defaultValue": "redis-gwc-nl-hq-sss-gw"
+      "defaultValue": "redis-gwc-nl-hq-t-gw"
     },
     "useApplicationInsights": {
       "type": "bool",
@@ -141,21 +141,21 @@
     },
     "applicationInsightsName": {
       "type": "string",
-      "defaultValue": "appi-gwc-nl-hq-sss-gw"
+      "defaultValue": "appi-gwc-nl-hq-t-gw"
     },
     "applicationInsightsLocation": {
       "type": "string",
-      "defaultValue": "westeurope"
+      "defaultValue": "germanywestcentral"
     },
     "applicationInsightsPricePlan": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "appip-gwc-nl-hq-sss-gw"
+      "defaultValue": "appip-gwc-nl-hq-t-gw"
     },
     "authCertificateName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "auth-gwc-nl-hq-sss-gw"
+      "defaultValue": "auth-gwc-nl-hq-t-gw"
     },
     "authCertificateBlob": {
       "type": "securestring",
@@ -168,28 +168,28 @@
     "siHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "plan-gwc-nl-hq-sss-gw-si"
+      "defaultValue": "plan-gwc-nl-hq-t-gwsi"
     },
     "cmHostingPlanName": {
       "type": "string",
-      "defaultValue": "plan-gwc-nl-hq-sss-gw-cm"
+      "defaultValue": "plan-gwc-nl-hq-t-gwcm"
     },
     "cdHostingPlanName": {
       "type": "string",
-      "defaultValue": "plan-gwc-nl-hq-sss-gw-cd"
+      "defaultValue": "plan-gwc-nl-hq-t-gwcd"
     },
     "siWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "app-gwc-nl-hq-sss-gw-si"
+      "defaultValue": "app-gwc-nl-hq-t-gwsi"
     },
     "cmWebAppName": {
       "type": "string",
-      "defaultValue": "app-gwc-nl-hq-sss-gw-cm"
+      "defaultValue": "app-gwc-nl-hq-t-gwcm"
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "app-gwc-nl-hq-sss-gw-cd"
+      "defaultValue": "app-gwc-nl-hq-t-gwcd"
     },
     "skuMap": {
       "type": "secureObject",
@@ -658,7 +658,7 @@
     },
     "omsWorkspaceName": {
       "type": "string",
-      "defaultValue": "log-gwc-nl-hq-sss-gw-appi"
+      "defaultValue": "log-gwc-nl-hq-t-gwappi"
     },
     "minTlsVersion": {
       "type": "string",
